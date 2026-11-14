@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import ProductList from "./components/ProductList";
 import TransactionList from "./components/TransactionList";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Home />
       <ProductList />
       <TransactionList />
+      <Footer />
     </>
   );
 }
