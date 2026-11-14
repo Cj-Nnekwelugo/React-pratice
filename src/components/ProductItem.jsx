@@ -13,7 +13,7 @@ function ProductItem({ productName, description, price, badge }) {
 
       <div className="mt-5 flex items-center justify-between border-t border-slate-200 pt-4">
         <span className="text-2xl font-bold text-slate-800">{price}</span>
-        <button className="rounded-full bg-slate-900 px-4 py-2 text-sm font-medium text-white transition hover:bg-slate-700">
+        <button className="rounded-full bg-slate-900 px-4 py-2 text-sm font-medium text-white transition hover:bg-slate-700 cursor-pointer">
           Add to cart
         </button>
       </div>
