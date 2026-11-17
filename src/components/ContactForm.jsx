@@ -1,8 +1,13 @@
 function ContactForm() {
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        console.log("Form submitted ");
+    }
+
     return (
-        <div className="max-w-md mx-auto p-6">
+        <div className="max-w-md mx-auto p-10 ">
             <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
-            <form>
+            <form onSubmit={handleSubmit}>
                 <div className="mb-4">
                     <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
                         Name
