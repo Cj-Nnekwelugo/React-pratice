@@ -5,7 +5,7 @@ function ContactForm() {
     }
 
     return (
-        <div className="max-w-md mx-auto p-10 ">
+        <div className="max-w-md mx-auto p-10 bg-white rounded-lg shadow-md ">
             <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
             <form onSubmit={handleSubmit}>
                 <div className="mb-4">
