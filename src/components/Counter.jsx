@@ -1,9 +1,11 @@
+import { useState } from "react";
+
 function Counter() {
-    let count = 0;
-    function increaseCount() {
-        count++;
-        console.log(count);
-    }
+    const [count, setCount] = useState(0);
+
+    const increaseCount = () => {
+        setCount(count + 1);
+    };
 
     return (
         <div className="max-w-md mx-auto p-10 bg-white rounded-lg shadow-md ">
