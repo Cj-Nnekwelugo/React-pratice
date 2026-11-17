@@ -8,7 +8,7 @@ function Counter() {
     };
 
     return (
-        <div className="max-w-md mx-auto p-10 bg-white rounded-lg shadow-md ">
+        <div className="max-w-md mx-auto p-10 bg-white rounded-lg shadow-md flex flex-col items-start gap-4">
             <h2 className="text-2xl font-bold mb-4">Counter</h2>
             <span className="font-extrabold">{count}</span>
             <button
