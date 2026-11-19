@@ -1,7 +1,7 @@
 
 import ContactForm from "./components/ContactForm";
 import Counter from "./components/Counter";
-
+import Input from "./components/Input"
 
 import ProductList from "./components/ProductList";
 
@@ -23,6 +23,8 @@ function App() {
 
        <ProductList />
       </div>
+
+      <Input />
     </>
   );
 }
