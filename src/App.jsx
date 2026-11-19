@@ -18,8 +18,8 @@ function App() {
       <Counter />
       
 
-      <div className="">
-        <h3>Products</h3>
+      <div className="w-full flex flex-col items-center gap-11 ">
+        <h3 className="font-bold text-4xl">Products</h3>
 
        <ProductList />
       </div>
